@@ -10,6 +10,7 @@ import csv
 # We want to import os because we want to check for sudo
 import os
 # We want to use time.sleep()
+import sys
 import time
 # We want to move .csv files in the folder if we found any.
 # We'll use shutil for that.
@@ -40,16 +41,17 @@ def check_for_essid(essid, lst):
     return check_status
 
 # Basic user interface header
-print(r"""______            _     _  ______                 _           _ 
-|  _  \          (_)   | | | ___ \               | |         | |
-| | | |__ ___   ___  __| | | |_/ / ___  _ __ ___ | |__   __ _| |
-| | | / _` \ \ / / |/ _` | | ___ \/ _ \| '_ ` _ \| '_ \ / _` | |
-| |/ / (_| |\ V /| | (_| | | |_/ / (_) | | | | | | |_) | (_| | |
-|___/ \__,_| \_/ |_|\__,_| \____/ \___/|_| |_| |_|_.__/ \__,_|_|""")
+print(r""" 
+..#....#....######....#...#.....######....#...#...
+..##...#......##......#..#......#....#....#..#....
+..#.#..#......##......##........######....##......
+..#..#.#......##......#..#......#....#....#..#....
+..#...##....######....#...#.....#....#....#...#...
+""")
 print("\n****************************************************************")
 print("\n* Copyright of David Bombal, 2021                              *")
-print("\n* https://www.davidbombal.com                                  *")
-print("\n* https://www.youtube.com/davidbombal                          *")
+print("\n* I have permission to change and upgrade code                 *")
+print("\n* code updated by Nika Kachibaia                               *")
 print("\n****************************************************************")
 
 
